@@ -6,6 +6,7 @@ public interface FastFileService {
 
     /**
      * 储存图片
+     *
      * @param img
      * @return
      */

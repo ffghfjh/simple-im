@@ -11,12 +11,12 @@ public class FileController {
 
     @Autowired
     FastFileService fileService;
+
     @PostMapping("/sendImg")
-    public String sendImg(MultipartFile file){
-        if(file!=null){
+    public String sendImg(MultipartFile file) {
+        if (file != null) {
             return fileService.saveImages(file);
         }
         return null;
     }
-
 }

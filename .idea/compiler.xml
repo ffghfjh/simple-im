@@ -7,14 +7,15 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="consumer-user" />
+        <module name="im-file-system" />
         <module name="eureka-server" />
         <module name="provider-ticket" />
-        <module name="im-fileservice" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="consumer-user" target="1.8" />
       <module name="eureka-server" target="1.8" />
+      <module name="im-file-system" target="1.8" />
       <module name="im-fileservice" target="1.8" />
       <module name="provider-ticket" target="1.8" />
       <module name="test" target="1.8" />
@@ -24,6 +25,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="consumer-user" options="-parameters" />
       <module name="eureka-server" options="-parameters" />
+      <module name="im-file-system" options="-parameters" />
       <module name="im-fileservice" options="-parameters" />
       <module name="provider-ticket" options="-parameters" />
       <module name="test" options="-parameters" />

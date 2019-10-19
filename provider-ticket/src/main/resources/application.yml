@@ -1,8 +1,8 @@
-server:
-  port: 8002
 spring:
   application:
     name: provider-ticket
+server:
+  port: 8002
 eureka:
   instance:
     prefer-ip-address: true #注册服务使用服务的ip地址

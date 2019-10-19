@@ -6,7 +6,7 @@
         <option value="$PROJECT_DIR$/provider-ticket/pom.xml" />
         <option value="$PROJECT_DIR$/eureka-server/pom.xml" />
         <option value="$PROJECT_DIR$/consumer-user/pom.xml" />
-        <option value="$PROJECT_DIR$/im-fileservice/pom.xml" />
+        <option value="$PROJECT_DIR$/im-file-system/pom.xml" />
       </list>
     </option>
   </component>
